@@ -1,0 +1,197 @@
+@import "tailwindcss";
+
+/* ══════════════════════════════════════════════════════════
+   FILIPO · Sistema de diseño y paleta oficial
+   Inspirado fielmente en: CATALOGO_FILIPO_tablas_6.html
+   --t: #C05028 (Terracota)
+   --td: #8B3318 (Terracota Oscura)
+   --g: #2F2A24 (Grafito / Carbón Cálido)
+   --s: #EACB91 (Arena / Dorado Suave)
+   --a: #C4A882 (Dorado Antiguo / Muted)
+   --ol: #6A8635 (Oliva)
+   --cr: #F5EBD8 (Crema / Pergamino)
+   --p: #FAF3E8 (Pergamino Pálido)
+   ══════════════════════════════════════════════════════════ */
+
+:root {
+  --t: #C05028;
+  --td: #8B3318;
+  --g: #2F2A24;
+  --s: #EACB91;
+  --a: #C4A882;
+  --ol: #6A8635;
+  --cr: #F5EBD8;
+  --p: #FAF3E8;
+}
+
+@theme {
+  /* 1. Colores Oficiales del Catálogo */
+  --color-terracotta: #C05028;
+  --color-terracotta-dark: #8B3318;
+  --color-grafito: #2F2A24;
+  --color-grafito-dark: #1A1510;
+  --color-grafito-card: #25201A;
+  --color-sand: #EACB91;
+  --color-antique: #C4A882;
+  --color-olive: #6A8635;
+  --color-cream: #F5EBD8;
+  --color-parchment: #FAF3E8;
+
+  /* 2. Mapeos de compatibilidad con componentes existentes */
+  --color-ink: #1F1A14;
+  --color-graphite: #2F2A24;
+  --color-coal: #1A1510;
+  --color-smoke: rgba(196, 168, 130, 0.22);
+
+  --color-gold: #C05028;
+  --color-gold-light: #EACB91;
+  --color-gold-dark: #8B3318;
+  --color-gold-soft: #C4A882;
+
+  /* 3. Marcas y Aplicaciones Oficiales */
+  --color-peya: #fa0050;
+  --color-peya-hover: #d60043;
+  --color-wa: #25d366;
+  --color-wa-hover: #20bd5a;
+  --color-fb: #1877F2;
+
+  /* 4. Tipografía */
+  --font-display: "Playfair Display", "Georgia", serif;
+  --font-body: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Playfair Display", "Georgia", serif;
+  --font-sans: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    background-color: #1A1510;
+    color: #FAF3E8;
+    font-family: var(--font-body);
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  ::selection {
+    background: #C05028;
+    color: #FFFFFF;
+  }
+  /* Scrollbar estético discreto */
+  ::-webkit-scrollbar {
+    height: 4px;
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #1A1510;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2F2A24;
+    border-radius: 2px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #C05028;
+  }
+  img {
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+}
+
+@layer components {
+  /* Regla divisoria terracota estilo Catálogo */
+  .c-rule {
+    width: 60px;
+    height: 1px;
+    background-color: #C05028;
+    margin: 14px auto;
+  }
+
+  /* Línea divisoria en arena/dorado suave */
+  .hairline {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(196, 168, 130, 0.35), transparent);
+  }
+
+  /* Trama de puntos sutil en arena */
+  .pattern-dots {
+    background-image: radial-gradient(rgba(234, 203, 145, 0.08) 1px, transparent 1.4px);
+    background-size: 24px 24px;
+  }
+
+  /* Gradiente oficial de portada del Catálogo */
+  .bg-cover-grad {
+    background: linear-gradient(160deg, #1A1510 0%, #2F2A24 60%, #3D2E1E 100%);
+  }
+
+  /* Overlay de degradado para fotos Hero */
+  .hero-overlay {
+    background: linear-gradient(to bottom, transparent 35%, rgba(47, 42, 36, 0.95) 100%);
+  }
+
+  /* Gradiente oficial de Instagram */
+  .bg-ig-grad {
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  }
+
+  /* Filtro fotográfico cálido editorial */
+  .img-warm {
+    filter: sepia(0.12) saturate(1.02) contrast(1.04) brightness(0.96);
+  }
+
+  /* Eyebrows / Etiquetas superiores */
+  .c-eye {
+    font-size: 10px;
+    letter-spacing: 0.26em;
+    text-transform: uppercase;
+    color: #EACB91;
+    font-weight: 700;
+  }
+
+  .ing-eye {
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #C05028;
+    font-weight: 700;
+  }
+
+  /* Cartelito con flecha del Catálogo */
+  .ci-bullet {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #C05028;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ci-bullet.verde {
+    background-color: #6A8635;
+  }
+  .ci-bullet.gold {
+    background-color: #C4A882;
+  }
+}
+
+/* Grano cinematográfico muy suave */
+.grain-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99;
+  pointer-events: none;
+  opacity: 0.032;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Ocultar barra de desplazamiento manteniendo funcionalidad táctil */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
