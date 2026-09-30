@@ -133,23 +133,6 @@ Promos,Como en Casa,"Infusión, jugo de cortesía, tres tostadas de pan de masa 
 Promos,Clásico,"Infusión, jugo de cortesía y dos medialunas/tortillas o un roll de canela o un croissant.",8900,,"Promo, Simple",si
 Promos,Mixto,Vaso de licuado de banana con leche y medio tostado de jamón y queso (pan de miga o árabe).,13500,,"Promo, Simple",si
 Promos,Arabito,Un litro de licuado de banana con leche y ocho tostaditos de jamón y queso en pan árabe.,18900,,"Promo, Simple",si
-Cafeteria,Café Filipo,"Café, licor Tía María Cream, licor de chocolate, crema y chocolate rayado.",8900,/platos/cafeteria.jpg,,si
-Cafeteria,Café Surprise,"Café, crema, licor Tía María Cream, licor de dulce de leche y chocolate rayado.",8900,/platos/cafeteria.jpg,,si
-Cafeteria,Café Irlandés,"Café, whisky, crema, chocolate rayado y canela.",8900,/platos/cafeteria.jpg,,si
-Cafeteria,Café con Baileys,,8900,/platos/cafeteria.jpg,,si
-Cafeteria,Affogato,Pocillo de café con helado.,8900,/platos/cafeteria.jpg,,si
-Cafeteria,Frozen Baileys Coffee,"Batido de hielo triturado, Baileys, helado y café.",12500,/platos/cafeteria.jpg,,si
-Cafeteria,Sweetest Ice Coffee,"Hielo triturado, café, leche helada y helado de dulce de leche.",10900,/platos/cafeteria.jpg,,si
-Cafeteria,Vanilla Ice Coffee,"Hielo triturado, café, leche helada y vainilla.",10900,/platos/cafeteria.jpg,,si
-Cafeteria,Café o cortado en Pocillo,,4500,/platos/cafeteria.jpg,,si
-Cafeteria,Café en pocillo o Jarrito con Leche Condensada,,5300,/platos/cafeteria.jpg,,si
-Cafeteria,Café en Jarrito/ café doble/ café con leche,,4900,/platos/cafeteria.jpg,,si
-Cafeteria,Té / Té Saborizado,,4900,/platos/cafeteria.jpg,,si
-Cafeteria,Capuchino,,5900,/platos/cafeteria.jpg,,si
-Cafeteria,Submarino,,5900,/platos/cafeteria.jpg,,si
-Cafeteria,Leche con Chocolate,,5000,/platos/cafeteria.jpg,,si
-Cafeteria,Café en Jarrito,,4900,/platos/cafeteria.jpg,,si
-Cafeteria,Café en Pocillo con Crema,,4900,/platos/cafeteria.jpg,,si
 Sin Gluten Agregado,Desayuno Avocado Toast (Sin gluten añadido),Dos tostadas con palta pisada y 2 huevos pochados.,17400,,Sin Gluten,si
 Sin Gluten Agregado,Desayuno Saludable (Sin gluten añadido),Infusión + jugo de naranja exprimido + 3 tostadas + palta con semilla + tomate triturado + huevo revuelto.,16000,,Sin Gluten,si
 Sin Gluten Agregado,Desayuno Completo (Sin gluten añadido),Infusión + jugo + variedad de frutas + huevo revuelto + 3 tostadas + queso crema + mermelada.,16000,,Sin Gluten,si
@@ -305,3 +288,20 @@ Menu Ejecutivo,Ensalada César Menú,"Mix de verdes, tiras de pollo, croutons, p
 Menu Ejecutivo,Menú Kids (la porción es mas pequeña),Pechuguitas de pollo crujiente · Bifecito de pollo o ternera con puré · Dos pizzetitas a elección · Fetuccini al huevo · Hamburguesa simple con cheddar y papas fritas.,17200,/platos/menu-ejecutivo.jpg,"Menú Completo, Kids",si
 Menu Ejecutivo,Guarniciones Menú Ejecutivo,Arroz · puré mixto · puré de papa · puré de calabaza · papas fritas · ensalada mixta.,0,/platos/menu-ejecutivo.jpg,,si
 Menu Ejecutivo,Opciones de Postre Menú Ejecutivo,Crema de naranja · Crema de limón · Ensalada de Frutas · Bocha de Helado · Flan casero · Mousse de frutilla · Café.,0,/platos/menu-ejecutivo.jpg,,si
+Cafeteria,Café Filipo,"Café, licor Tía María Cream, licor de chocolate, crema y chocolate rayado.",8900,/platos/cafeteria.jpg,,si
+Cafeteria,Café Surprise,"Café, crema, licor Tía María Cream, licor de dulce de leche y chocolate rayado.",8900,/platos/cafeteria.jpg,,si
+Cafeteria,Café Irlandés,"Café, whisky, crema, chocolate rayado y canela.",8900,/platos/cafeteria.jpg,,si
+Cafeteria,Café con Baileys,,8900,/platos/cafeteria.jpg,,si
+Cafeteria,Affogato,Pocillo de café con helado.,8900,/platos/cafeteria.jpg,,si
+Cafeteria,Frozen Baileys Coffee,"Batido de hielo triturado, Baileys, helado y café.",12500,/platos/cafeteria.jpg,,si
+Cafeteria,Sweetest Ice Coffee,"Hielo triturado, café, leche helada y helado de dulce de leche.",10900,/platos/cafeteria.jpg,,si
+Cafeteria,Vanilla Ice Coffee,"Hielo triturado, café, leche helada y vainilla.",10900,/platos/cafeteria.jpg,,si
+Cafeteria,Café o cortado en Pocillo,,4500,/platos/cafeteria.jpg,,si
+Cafeteria,Café en pocillo o Jarrito con Leche Condensada,,5300,/platos/cafeteria.jpg,,si
+Cafeteria,Café en Jarrito/ café doble/ café con leche,,4900,/platos/cafeteria.jpg,,si
+Cafeteria,Té / Té Saborizado,,4900,/platos/cafeteria.jpg,,si
+Cafeteria,Capuchino,,5900,/platos/cafeteria.jpg,,si
+Cafeteria,Submarino,,5900,/platos/cafeteria.jpg,,si
+Cafeteria,Leche con Chocolate,,5000,/platos/cafeteria.jpg,,si
+Cafeteria,Café en Jarrito,,4900,/platos/cafeteria.jpg,,si
+Cafeteria,Café en Pocillo con Crema,,4900,/platos/cafeteria.jpg,,si

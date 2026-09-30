@@ -1606,160 +1606,6 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     "itemsCount": 22
   },
   {
-    "name": "Cafeteria",
-    "slug": "cafeteria",
-    "description": "Cafés especiales, fríos y clásicos de barista.",
-    "icon": "Coffee",
-    "coverImage": "./platos/cafeteria.jpg",
-    "items": [
-      {
-        "name": "Café Filipo",
-        "description": "Café, licor Tía María Cream, licor de chocolate, crema y chocolate rayado.",
-        "price": 8900,
-        "image": "./platos/cafeteria.jpg",
-        "id": "dish-12-1",
-        "category": "Cafeteria",
-        "categoryId": 12
-      },
-      {
-        "name": "Café Surprise",
-        "description": "Café, crema, licor Tía María Cream, licor de dulce de leche y chocolate rayado.",
-        "price": 8900,
-        "image": "./platos/cafeteria.jpg",
-        "id": "dish-12-2",
-        "category": "Cafeteria",
-        "categoryId": 12
-      },
-      {
-        "name": "Café Irlandés",
-        "description": "Café, whisky, crema, chocolate rayado y canela.",
-        "price": 8900,
-        "image": "./platos/cafeteria.jpg",
-        "id": "dish-12-3",
-        "category": "Cafeteria",
-        "categoryId": 12
-      },
-      {
-        "name": "Café con Baileys",
-        "price": 8900,
-        "image": "./platos/cafeteria.jpg",
-        "id": "dish-12-4",
-        "category": "Cafeteria",
-        "categoryId": 12
-      },
-      {
-        "name": "Affogato",
-        "description": "Pocillo de café con helado.",
-        "price": 8900,
-        "image": "./platos/cafeteria.jpg",
-        "id": "dish-12-5",
-        "category": "Cafeteria",
-        "categoryId": 12
-      },
-      {
-        "name": "Frozen Baileys Coffee",
-        "description": "Batido de hielo triturado, Baileys, helado y café.",
-        "price": 12500,
-        "image": "./platos/cafeteria.jpg",
-        "id": "dish-12-6",
-        "category": "Cafeteria",
-        "categoryId": 12
-      },
-      {
-        "name": "Sweetest Ice Coffee",
-        "description": "Hielo triturado, café, leche helada y helado de dulce de leche.",
-        "price": 10900,
-        "image": "./platos/cafeteria.jpg",
-        "id": "dish-12-7",
-        "category": "Cafeteria",
-        "categoryId": 12
-      },
-      {
-        "name": "Vanilla Ice Coffee",
-        "description": "Hielo triturado, café, leche helada y vainilla.",
-        "price": 10900,
-        "image": "./platos/cafeteria.jpg",
-        "id": "dish-12-8",
-        "category": "Cafeteria",
-        "categoryId": 12
-      },
-      {
-        "name": "Café o cortado en Pocillo",
-        "price": 4500,
-        "image": "./platos/cafeteria.jpg",
-        "id": "dish-12-9",
-        "category": "Cafeteria",
-        "categoryId": 12
-      },
-      {
-        "name": "Café en pocillo o Jarrito con Leche Condensada",
-        "price": 5300,
-        "image": "./platos/cafeteria.jpg",
-        "id": "dish-12-10",
-        "category": "Cafeteria",
-        "categoryId": 12
-      },
-      {
-        "name": "Café en Jarrito/ café doble/ café con leche",
-        "price": 4900,
-        "image": "./platos/cafeteria.jpg",
-        "id": "dish-12-11",
-        "category": "Cafeteria",
-        "categoryId": 12
-      },
-      {
-        "name": "Té / Té Saborizado",
-        "price": 4900,
-        "image": "./platos/cafeteria.jpg",
-        "id": "dish-12-12",
-        "category": "Cafeteria",
-        "categoryId": 12
-      },
-      {
-        "name": "Capuchino",
-        "price": 5900,
-        "image": "./platos/cafeteria.jpg",
-        "id": "dish-12-13",
-        "category": "Cafeteria",
-        "categoryId": 12
-      },
-      {
-        "name": "Submarino",
-        "price": 5900,
-        "image": "./platos/cafeteria.jpg",
-        "id": "dish-12-14",
-        "category": "Cafeteria",
-        "categoryId": 12
-      },
-      {
-        "name": "Leche con Chocolate",
-        "price": 5000,
-        "image": "./platos/cafeteria.jpg",
-        "id": "dish-12-15",
-        "category": "Cafeteria",
-        "categoryId": 12
-      },
-      {
-        "name": "Café en Jarrito",
-        "price": 4900,
-        "image": "./platos/cafeteria.jpg",
-        "id": "dish-12-16",
-        "category": "Cafeteria",
-        "categoryId": 12
-      },
-      {
-        "name": "Café en Pocillo con Crema",
-        "price": 4900,
-        "image": "./platos/cafeteria.jpg",
-        "id": "dish-12-17",
-        "category": "Cafeteria",
-        "categoryId": 12
-      }
-    ],
-    "id": 12,
-    "itemsCount": 17
-  },
-  {
     "name": "Sin Gluten Agregado",
     "slug": "sin-gluten-agregado",
     "icon": "WheatOff",
@@ -1771,9 +1617,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Sin Gluten"
         ],
-        "id": "dish-13-1",
+        "id": "dish-12-1",
         "category": "Sin Gluten Agregado",
-        "categoryId": 13
+        "categoryId": 12
       },
       {
         "name": "Desayuno Saludable (Sin gluten añadido)",
@@ -1782,9 +1628,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Sin Gluten"
         ],
-        "id": "dish-13-2",
+        "id": "dish-12-2",
         "category": "Sin Gluten Agregado",
-        "categoryId": 13
+        "categoryId": 12
       },
       {
         "name": "Desayuno Completo (Sin gluten añadido)",
@@ -1793,9 +1639,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Sin Gluten"
         ],
-        "id": "dish-13-3",
+        "id": "dish-12-3",
         "category": "Sin Gluten Agregado",
-        "categoryId": 13
+        "categoryId": 12
       },
       {
         "name": "Desayuno Goloso (Sin gluten añadido)",
@@ -1804,9 +1650,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Sin Gluten"
         ],
-        "id": "dish-13-4",
+        "id": "dish-12-4",
         "category": "Sin Gluten Agregado",
-        "categoryId": 13
+        "categoryId": 12
       },
       {
         "name": "Promo Licuado + 2 Medialunas (Sin gluten añadido)",
@@ -1814,9 +1660,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Sin Gluten"
         ],
-        "id": "dish-13-5",
+        "id": "dish-12-5",
         "category": "Sin Gluten Agregado",
-        "categoryId": 13
+        "categoryId": 12
       },
       {
         "name": "Desayuno Clásico (Sin gluten añadido)",
@@ -1825,9 +1671,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Sin Gluten"
         ],
-        "id": "dish-13-6",
+        "id": "dish-12-6",
         "category": "Sin Gluten Agregado",
-        "categoryId": 13
+        "categoryId": 12
       },
       {
         "name": "Desayuno Como en Casa (Sin gluten añadido)",
@@ -1836,9 +1682,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Sin Gluten"
         ],
-        "id": "dish-13-7",
+        "id": "dish-12-7",
         "category": "Sin Gluten Agregado",
-        "categoryId": 13
+        "categoryId": 12
       },
       {
         "name": "Lomo al Strogonoff (Sin gluten añadido)",
@@ -1847,9 +1693,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Sin Gluten"
         ],
-        "id": "dish-13-8",
+        "id": "dish-12-8",
         "category": "Sin Gluten Agregado",
-        "categoryId": 13
+        "categoryId": 12
       },
       {
         "name": "Medallón de Lomo (Sin gluten añadido)",
@@ -1858,9 +1704,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Sin Gluten"
         ],
-        "id": "dish-13-9",
+        "id": "dish-12-9",
         "category": "Sin Gluten Agregado",
-        "categoryId": 13
+        "categoryId": 12
       },
       {
         "name": "Pechuga de Pollo al Curry (Sin gluten añadido)",
@@ -1869,9 +1715,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Sin Gluten"
         ],
-        "id": "dish-13-10",
+        "id": "dish-12-10",
         "category": "Sin Gluten Agregado",
-        "categoryId": 13
+        "categoryId": 12
       },
       {
         "name": "Ensalada Tibia de Pollo (Sin gluten añadido)",
@@ -1880,9 +1726,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Sin Gluten"
         ],
-        "id": "dish-13-11",
+        "id": "dish-12-11",
         "category": "Sin Gluten Agregado",
-        "categoryId": 13
+        "categoryId": 12
       },
       {
         "name": "Sándwich (Sin gluten Añadido)",
@@ -1891,9 +1737,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Sin Gluten"
         ],
-        "id": "dish-13-12",
+        "id": "dish-12-12",
         "category": "Sin Gluten Agregado",
-        "categoryId": 13
+        "categoryId": 12
       },
       {
         "name": "Hamburguesa (Sin gluten Añadido)",
@@ -1902,12 +1748,12 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Sin Gluten"
         ],
-        "id": "dish-13-13",
+        "id": "dish-12-13",
         "category": "Sin Gluten Agregado",
-        "categoryId": 13
+        "categoryId": 12
       }
     ],
-    "id": 13,
+    "id": 12,
     "itemsCount": 13
   },
   {
@@ -1925,9 +1771,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "Premium"
         ],
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-1",
+        "id": "dish-13-1",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Gin Tonic con Bombay",
@@ -1937,9 +1783,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "Premium"
         ],
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-2",
+        "id": "dish-13-2",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Mimosa",
@@ -1949,9 +1795,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "Premium"
         ],
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-3",
+        "id": "dish-13-3",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Red Varsovia",
@@ -1961,9 +1807,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "Premium"
         ],
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-4",
+        "id": "dish-13-4",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Gin Tonic Beefeater",
@@ -1973,143 +1819,143 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "Premium"
         ],
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-5",
+        "id": "dish-13-5",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Mojito clásico/ Maracuyá/ Malibú",
         "description": "El clásico cubano. Refrescante combinación de ron, lima, hierbabuena fresca y un toque de soda.",
         "price": 9900,
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-6",
+        "id": "dish-13-6",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Daiquiri",
         "description": "Un clásico tropical preparado con ron, limón y la fruta de tu elección. Refrescante y lleno de sabor.",
         "price": 9900,
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-7",
+        "id": "dish-13-7",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Cuba Libre",
         "description": "Ron, cola y un toque de limón que aporta frescura y el equilibrio perfecto en cada sorbo.",
         "price": 9900,
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-8",
+        "id": "dish-13-8",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Caipiriña clásica/ Maracuyá",
         "description": "El sabor más auténtico de Brasil. Cachaça, limón fresco y azúcar en perfecta armonía.",
         "price": 9900,
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-9",
+        "id": "dish-13-9",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Caipiroska clásica/ Maracuyá",
         "description": "Una versión más suave de la caipiriña, preparada con vodka, limón y azúcar.",
         "price": 9900,
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-10",
+        "id": "dish-13-10",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Campari Orange",
         "description": "El equilibrio ideal entre el amargor del Campari y la frescura del jugo de naranja natural.",
         "price": 9900,
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-11",
+        "id": "dish-13-11",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Cosmopolitan",
         "description": "Vodka, licor de naranja, jugo de arándanos y un toque de lima.",
         "price": 9900,
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-12",
+        "id": "dish-13-12",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Frozen Margarita",
         "description": "La versión más refrescante de un clásico. Tequila, triple sec y jugo de limón, licuados con hielo hasta lograr una textura suave y helada.",
         "price": 9900,
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-13",
+        "id": "dish-13-13",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Pisco Sour",
         "description": "Pisco, jugo de limón, almíbar y clara de huevo, logrando una textura y un equilibrio perfecto entre dulzor y acidez.",
         "price": 9900,
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-14",
+        "id": "dish-13-14",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Gancia Batido",
         "description": "Gancia, jugo de limón y un toque de azúcar, batidos con hielo, liviano y refrescante.",
         "price": 9900,
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-15",
+        "id": "dish-13-15",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Fernet Branca",
         "description": "El trago más argentino de todos, amargo, refrescante, simplemente Fernet con Coca.",
         "price": 9900,
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-16",
+        "id": "dish-13-16",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Fernet Julep",
         "description": "Propuesta diferente que combina Fernet Branca, coca cola, menta, pomelo y soda para un sabor fresco y equilibrado.",
         "price": 9900,
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-17",
+        "id": "dish-13-17",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Vodka + Speed",
         "price": 9900,
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-18",
+        "id": "dish-13-18",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Lagrima de Cocodrilo",
         "description": "Cóctel tropical con vodka, piña colada, licor de melón y limón. Dulce, fresco e irresistible.",
         "price": 9900,
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-19",
+        "id": "dish-13-19",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Gin Tonic",
         "description": "El clásico de los clásicos. Gin, agua tónica y un toque de cítricos que realzan su frescura y equilibrio.",
         "price": 9900,
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-20",
+        "id": "dish-13-20",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Trago Filipo",
@@ -2119,9 +1965,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "De la Casa"
         ],
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-21",
+        "id": "dish-13-21",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Promo Aperol Spritz",
@@ -2131,9 +1977,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "Promo"
         ],
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-22",
+        "id": "dish-13-22",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Promo Gin Tonic",
@@ -2143,9 +1989,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "Promo"
         ],
         "image": "./platos/cocteleria.jpg",
-        "id": "dish-14-23",
+        "id": "dish-13-23",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Tabla Terapia de Grupo 210 ml",
@@ -2155,9 +2001,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "Para compartir"
         ],
         "image": "./platos/tablas.jpg",
-        "id": "dish-14-24",
+        "id": "dish-13-24",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       },
       {
         "name": "Tabla Bla Bla Bla 210 ml",
@@ -2167,12 +2013,12 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "Para compartir"
         ],
         "image": "./platos/tablas.jpg",
-        "id": "dish-14-25",
+        "id": "dish-13-25",
         "category": "Tragos",
-        "categoryId": 14
+        "categoryId": 13
       }
     ],
-    "id": 14,
+    "id": 13,
     "itemsCount": 25
   },
   {
@@ -2185,44 +2031,44 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "name": "Lemonchamp",
         "description": "Chandon 187 con helado de limón. Fresco y elegante.",
         "price": 12900,
-        "id": "dish-15-1",
+        "id": "dish-14-1",
         "category": "Tragos con helado",
-        "categoryId": 15
+        "categoryId": 14
       },
       {
         "name": "Frozen Baileys",
         "description": "Batido de licor Baileys con helado de dulce de leche y hielo.",
         "price": 12500,
-        "id": "dish-15-2",
+        "id": "dish-14-2",
         "category": "Tragos con helado",
-        "categoryId": 15
+        "categoryId": 14
       },
       {
         "name": "Oreo Delight",
         "description": "Licor Baileys, vodka, galletita Oreo, leche y helado de vainilla.",
         "price": 11900,
-        "id": "dish-15-3",
+        "id": "dish-14-3",
         "category": "Tragos con helado",
-        "categoryId": 15
+        "categoryId": 14
       },
       {
         "name": "Screaming Orgasm",
         "description": "Licor de Baileys, vodka, licor de café, helado de crema americana y hielo.",
         "price": 11900,
-        "id": "dish-15-4",
+        "id": "dish-14-4",
         "category": "Tragos con helado",
-        "categoryId": 15
+        "categoryId": 14
       },
       {
         "name": "Frozen Gancia",
         "description": "Batido de Gancia con helado de limón y hielo.",
         "price": 11500,
-        "id": "dish-15-5",
+        "id": "dish-14-5",
         "category": "Tragos con helado",
-        "categoryId": 15
+        "categoryId": 14
       }
     ],
-    "id": 15,
+    "id": 14,
     "itemsCount": 5
   },
   {
@@ -2234,103 +2080,103 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "name": "Las Perdices Malbec 750 cc — Bodega Las Perdices (Mendoza)",
         "price": 23000,
-        "id": "dish-16-1",
+        "id": "dish-15-1",
         "category": "Vinos Tintos",
-        "categoryId": 16
+        "categoryId": 15
       },
       {
         "name": "Finca Humanao Malbec 750 cc — Bodega Humanao (Salta)",
         "price": 23000,
-        "id": "dish-16-2",
+        "id": "dish-15-2",
         "category": "Vinos Tintos",
-        "categoryId": 16
+        "categoryId": 15
       },
       {
         "name": "Nanni Tannat 750 cc",
         "price": 22000,
-        "id": "dish-16-3",
+        "id": "dish-15-3",
         "category": "Vinos Tintos",
-        "categoryId": 16
+        "categoryId": 15
       },
       {
         "name": "Amalaya Malbec 750 cc — Bodega Colomé (Salta)",
         "price": 22000,
-        "id": "dish-16-4",
+        "id": "dish-15-4",
         "category": "Vinos Tintos",
-        "categoryId": 16
+        "categoryId": 15
       },
       {
         "name": "Don David Malbec 750 cc — Bodega El Esteco (Salta)",
         "price": 22000,
-        "id": "dish-16-5",
+        "id": "dish-15-5",
         "category": "Vinos Tintos",
-        "categoryId": 16
+        "categoryId": 15
       },
       {
         "name": "Callia Alta Shiraz 750 cc",
         "price": 20500,
-        "id": "dish-16-6",
+        "id": "dish-15-6",
         "category": "Vinos Tintos",
-        "categoryId": 16
+        "categoryId": 15
       },
       {
         "name": "Latitud 33 Malbec 750 cc — Bodega Chandon (Mendoza)",
         "price": 16500,
-        "id": "dish-16-7",
+        "id": "dish-15-7",
         "category": "Vinos Tintos",
-        "categoryId": 16
+        "categoryId": 15
       },
       {
         "name": "Cafayate Cabernet Sauvignon 750 cc — Bodega Etchart (Salta)",
         "price": 15500,
-        "id": "dish-16-8",
+        "id": "dish-15-8",
         "category": "Vinos Tintos",
-        "categoryId": 16
+        "categoryId": 15
       },
       {
         "name": "Elementos Malbec 750 cc — Bodega El Esteco (Salta)",
         "price": 15500,
-        "id": "dish-16-9",
+        "id": "dish-15-9",
         "category": "Vinos Tintos",
-        "categoryId": 16
+        "categoryId": 15
       },
       {
         "name": "Amalaya Malbec 375 cc — Bodega Colomé (Salta)",
         "price": 15000,
-        "id": "dish-16-10",
+        "id": "dish-15-10",
         "category": "Vinos Tintos",
-        "categoryId": 16
+        "categoryId": 15
       },
       {
         "name": "Benjamin Malbec 750 cc — Bodega Nieto Senetiner (Mendoza)",
         "price": 12500,
-        "id": "dish-16-11",
+        "id": "dish-15-11",
         "category": "Vinos Tintos",
-        "categoryId": 16
+        "categoryId": 15
       },
       {
         "name": "Finca Humanao Malbec 500 cc",
         "price": 9100,
-        "id": "dish-16-12",
+        "id": "dish-15-12",
         "category": "Vinos Tintos",
-        "categoryId": 16
+        "categoryId": 15
       },
       {
         "name": "Elementos Malbec 375 cc — Bodega El Esteco (Salta)",
         "price": 8300,
-        "id": "dish-16-13",
+        "id": "dish-15-13",
         "category": "Vinos Tintos",
-        "categoryId": 16
+        "categoryId": 15
       },
       {
         "name": "Copa de Vino de la Casa",
         "price": 5500,
-        "id": "dish-16-14",
+        "id": "dish-15-14",
         "category": "Vinos Tintos",
-        "categoryId": 16
+        "categoryId": 15
       }
     ],
-    "id": 16,
+    "id": 15,
     "itemsCount": 14
   },
   {
@@ -2345,9 +2191,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Espumante"
         ],
-        "id": "dish-17-1",
+        "id": "dish-16-1",
         "category": "Vinos Blancos",
-        "categoryId": 17
+        "categoryId": 16
       },
       {
         "name": "Chandon Rosé 750 cc",
@@ -2355,9 +2201,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Espumante"
         ],
-        "id": "dish-17-2",
+        "id": "dish-16-2",
         "category": "Vinos Blancos",
-        "categoryId": 17
+        "categoryId": 16
       },
       {
         "name": "Chandon Extra Brut 750 cc",
@@ -2365,9 +2211,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Espumante"
         ],
-        "id": "dish-17-3",
+        "id": "dish-16-3",
         "category": "Vinos Blancos",
-        "categoryId": 17
+        "categoryId": 16
       },
       {
         "name": "Chandon Delicé 750 cc",
@@ -2375,9 +2221,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Espumante"
         ],
-        "id": "dish-17-4",
+        "id": "dish-16-4",
         "category": "Vinos Blancos",
-        "categoryId": 17
+        "categoryId": 16
       },
       {
         "name": "Nieto Senetiner Extra Brut 750 cc",
@@ -2385,9 +2231,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Espumante"
         ],
-        "id": "dish-17-5",
+        "id": "dish-16-5",
         "category": "Vinos Blancos",
-        "categoryId": 17
+        "categoryId": 16
       },
       {
         "name": "Chandon Rosé 187 cc",
@@ -2395,9 +2241,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Espumante"
         ],
-        "id": "dish-17-6",
+        "id": "dish-16-6",
         "category": "Vinos Blancos",
-        "categoryId": 17
+        "categoryId": 16
       },
       {
         "name": "Chandon Extra Brut 187 cc",
@@ -2405,9 +2251,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Espumante"
         ],
-        "id": "dish-17-7",
+        "id": "dish-16-7",
         "category": "Vinos Blancos",
-        "categoryId": 17
+        "categoryId": 16
       },
       {
         "name": "Nanni Tardío 750 cc — Bodega Nanni, Orgánico (Salta)",
@@ -2415,9 +2261,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Blanco"
         ],
-        "id": "dish-17-8",
+        "id": "dish-16-8",
         "category": "Vinos Blancos",
-        "categoryId": 17
+        "categoryId": 16
       },
       {
         "name": "Amalaya Torrontés 750 cc — Bodega Colomé (Salta)",
@@ -2425,9 +2271,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Blanco"
         ],
-        "id": "dish-17-9",
+        "id": "dish-16-9",
         "category": "Vinos Blancos",
-        "categoryId": 17
+        "categoryId": 16
       },
       {
         "name": "Amalaya Dulce Natural 750 cc — Bodega Colomé (Salta)",
@@ -2435,9 +2281,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Blanco"
         ],
-        "id": "dish-17-10",
+        "id": "dish-16-10",
         "category": "Vinos Blancos",
-        "categoryId": 17
+        "categoryId": 16
       },
       {
         "name": "Santa Julia Chenin 750 cc — Bodega Santa Julia (Mendoza)",
@@ -2445,9 +2291,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Blanco"
         ],
-        "id": "dish-17-11",
+        "id": "dish-16-11",
         "category": "Vinos Blancos",
-        "categoryId": 17
+        "categoryId": 16
       },
       {
         "name": "Cafayate Cosecha Tardía 750 cc — Bodega Etchart (Salta)",
@@ -2455,9 +2301,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Blanco"
         ],
-        "id": "dish-17-12",
+        "id": "dish-16-12",
         "category": "Vinos Blancos",
-        "categoryId": 17
+        "categoryId": 16
       },
       {
         "name": "New Age 750 cc — Bodega Bianchi (Mendoza)",
@@ -2465,9 +2311,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Blanco"
         ],
-        "id": "dish-17-13",
+        "id": "dish-16-13",
         "category": "Vinos Blancos",
-        "categoryId": 17
+        "categoryId": 16
       },
       {
         "name": "Cafayate Torrontés 750 cc — Bodega Etchart (Salta)",
@@ -2475,9 +2321,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Blanco"
         ],
-        "id": "dish-17-14",
+        "id": "dish-16-14",
         "category": "Vinos Blancos",
-        "categoryId": 17
+        "categoryId": 16
       },
       {
         "name": "Vino Sta. Julia Chenin Lata 355 cc",
@@ -2485,9 +2331,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Blanco"
         ],
-        "id": "dish-17-15",
+        "id": "dish-16-15",
         "category": "Vinos Blancos",
-        "categoryId": 17
+        "categoryId": 16
       },
       {
         "name": "Elementos Torrontés 375 cc — Bodega El Esteco (Salta)",
@@ -2495,12 +2341,12 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Blanco"
         ],
-        "id": "dish-17-16",
+        "id": "dish-16-16",
         "category": "Vinos Blancos",
-        "categoryId": 17
+        "categoryId": 16
       }
     ],
-    "id": 17,
+    "id": 16,
     "itemsCount": 16
   },
   {
@@ -2512,83 +2358,83 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "name": "Gin Bombay",
         "price": 13900,
-        "id": "dish-18-1",
+        "id": "dish-17-1",
         "category": "Bebidas Destiladas y Licores",
-        "categoryId": 18
+        "categoryId": 17
       },
       {
         "name": "Gin Tanqueray",
         "price": 13900,
-        "id": "dish-18-2",
+        "id": "dish-17-2",
         "category": "Bebidas Destiladas y Licores",
-        "categoryId": 18
+        "categoryId": 17
       },
       {
         "name": "Ron Havana 7 Años",
         "price": 12900,
-        "id": "dish-18-3",
+        "id": "dish-17-3",
         "category": "Bebidas Destiladas y Licores",
-        "categoryId": 18
+        "categoryId": 17
       },
       {
         "name": "Vodka Absolut",
         "price": 9900,
-        "id": "dish-18-4",
+        "id": "dish-17-4",
         "category": "Bebidas Destiladas y Licores",
-        "categoryId": 18
+        "categoryId": 17
       },
       {
         "name": "Vodka Smirnoff",
         "price": 9900,
-        "id": "dish-18-5",
+        "id": "dish-17-5",
         "category": "Bebidas Destiladas y Licores",
-        "categoryId": 18
+        "categoryId": 17
       },
       {
         "name": "Ron Bacardi",
         "price": 9900,
-        "id": "dish-18-6",
+        "id": "dish-17-6",
         "category": "Bebidas Destiladas y Licores",
-        "categoryId": 18
+        "categoryId": 17
       },
       {
         "name": "Gin Beefeater",
         "price": 8500,
-        "id": "dish-18-7",
+        "id": "dish-17-7",
         "category": "Bebidas Destiladas y Licores",
-        "categoryId": 18
+        "categoryId": 17
       },
       {
         "name": "Baileys",
         "price": 9500,
         "image": "./platos/cafeteria.jpg",
-        "id": "dish-18-8",
+        "id": "dish-17-8",
         "category": "Bebidas Destiladas y Licores",
-        "categoryId": 18
+        "categoryId": 17
       },
       {
         "name": "Malibú",
         "price": 8500,
-        "id": "dish-18-9",
+        "id": "dish-17-9",
         "category": "Bebidas Destiladas y Licores",
-        "categoryId": 18
+        "categoryId": 17
       },
       {
         "name": "Tía Maria Cream",
         "price": 7800,
-        "id": "dish-18-10",
+        "id": "dish-17-10",
         "category": "Bebidas Destiladas y Licores",
-        "categoryId": 18
+        "categoryId": 17
       },
       {
         "name": "Tía Maria",
         "price": 6900,
-        "id": "dish-18-11",
+        "id": "dish-17-11",
         "category": "Bebidas Destiladas y Licores",
-        "categoryId": 18
+        "categoryId": 17
       }
     ],
-    "id": 18,
+    "id": 17,
     "itemsCount": 11
   },
   {
@@ -2600,54 +2446,54 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "name": "Johnnie Walker Black",
         "price": 16800,
-        "id": "dish-19-1",
+        "id": "dish-18-1",
         "category": "Whiskys",
-        "categoryId": 19
+        "categoryId": 18
       },
       {
         "name": "Jack Daniels",
         "price": 14200,
-        "id": "dish-19-2",
+        "id": "dish-18-2",
         "category": "Whiskys",
-        "categoryId": 19
+        "categoryId": 18
       },
       {
         "name": "Ballantines",
         "price": 12500,
-        "id": "dish-19-3",
+        "id": "dish-18-3",
         "category": "Whiskys",
-        "categoryId": 19
+        "categoryId": 18
       },
       {
         "name": "J&B",
         "price": 12500,
-        "id": "dish-19-4",
+        "id": "dish-18-4",
         "category": "Whiskys",
-        "categoryId": 19
+        "categoryId": 18
       },
       {
         "name": "Johnnie Walker Red",
         "price": 12500,
-        "id": "dish-19-5",
+        "id": "dish-18-5",
         "category": "Whiskys",
-        "categoryId": 19
+        "categoryId": 18
       },
       {
         "name": "Blenders",
         "price": 8500,
-        "id": "dish-19-6",
+        "id": "dish-18-6",
         "category": "Whiskys",
-        "categoryId": 19
+        "categoryId": 18
       },
       {
         "name": "Old Smugglers",
         "price": 8500,
-        "id": "dish-19-7",
+        "id": "dish-18-7",
         "category": "Whiskys",
-        "categoryId": 19
+        "categoryId": 18
       }
     ],
-    "id": 19,
+    "id": 18,
     "itemsCount": 7
   },
   {
@@ -2662,9 +2508,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Litro"
         ],
-        "id": "dish-20-1",
+        "id": "dish-19-1",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Miller 970 cc",
@@ -2672,9 +2518,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Litro"
         ],
-        "id": "dish-20-2",
+        "id": "dish-19-2",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Imperial Lager 970 cc",
@@ -2682,9 +2528,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Litro"
         ],
-        "id": "dish-20-3",
+        "id": "dish-19-3",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Imperial IPA 970 cc",
@@ -2692,9 +2538,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Litro"
         ],
-        "id": "dish-20-4",
+        "id": "dish-19-4",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Imperial Golden 970 cc",
@@ -2702,9 +2548,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Litro"
         ],
-        "id": "dish-20-5",
+        "id": "dish-19-5",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Imperial Cream Stout 970 cc",
@@ -2712,9 +2558,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Litro"
         ],
-        "id": "dish-20-6",
+        "id": "dish-19-6",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Imperial APA 970 cc",
@@ -2722,9 +2568,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Litro"
         ],
-        "id": "dish-20-7",
+        "id": "dish-19-7",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Imperial Amber Lager 970 cc",
@@ -2732,9 +2578,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Litro"
         ],
-        "id": "dish-20-8",
+        "id": "dish-19-8",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Salta Roja 970 cc",
@@ -2742,9 +2588,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Litro"
         ],
-        "id": "dish-20-9",
+        "id": "dish-19-9",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Salta Negra 970 cc",
@@ -2752,9 +2598,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Litro"
         ],
-        "id": "dish-20-10",
+        "id": "dish-19-10",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Heineken Lata 470 cc",
@@ -2762,9 +2608,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Lata"
         ],
-        "id": "dish-20-11",
+        "id": "dish-19-11",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Imperial Lager Lata 470 cc",
@@ -2772,9 +2618,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Lata"
         ],
-        "id": "dish-20-12",
+        "id": "dish-19-12",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Imperial IPA Lata 470 cc",
@@ -2782,9 +2628,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Lata"
         ],
-        "id": "dish-20-13",
+        "id": "dish-19-13",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Imperial Golden 470 cc",
@@ -2792,9 +2638,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Lata"
         ],
-        "id": "dish-20-14",
+        "id": "dish-19-14",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Imperial Cream Stout Lata 470 cc",
@@ -2802,9 +2648,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Lata"
         ],
-        "id": "dish-20-15",
+        "id": "dish-19-15",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Imperial APA Lata 470 cc",
@@ -2812,9 +2658,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Lata"
         ],
-        "id": "dish-20-16",
+        "id": "dish-19-16",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Imperial Amber Lager Lata 470 cc",
@@ -2822,9 +2668,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Lata"
         ],
-        "id": "dish-20-17",
+        "id": "dish-19-17",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Salta Roja Lata 470 cc",
@@ -2832,9 +2678,9 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Lata"
         ],
-        "id": "dish-20-18",
+        "id": "dish-19-18",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       },
       {
         "name": "Salta Negra Lata 470 cc",
@@ -2842,12 +2688,12 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "tags": [
           "Lata"
         ],
-        "id": "dish-20-19",
+        "id": "dish-19-19",
         "category": "Cervezas",
-        "categoryId": 20
+        "categoryId": 19
       }
     ],
-    "id": 20,
+    "id": 19,
     "itemsCount": 19
   },
   {
@@ -2860,56 +2706,56 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "name": "Milkshake con Helado y Licor",
         "description": "Batido de leche, hielo, helado y licor a elección.",
         "price": 9500,
-        "id": "dish-21-1",
+        "id": "dish-20-1",
         "category": "Jugos y Licuados",
-        "categoryId": 21
+        "categoryId": 20
       },
       {
         "name": "Milkshake con Helado y Café",
         "description": "Batido de leche, hielo, helado y café.",
         "price": 8500,
-        "id": "dish-21-2",
+        "id": "dish-20-2",
         "category": "Jugos y Licuados",
-        "categoryId": 21
+        "categoryId": 20
       },
       {
         "name": "Licuado de Durazno y Naranja",
         "price": 7800,
-        "id": "dish-21-3",
+        "id": "dish-20-3",
         "category": "Jugos y Licuados",
-        "categoryId": 21
+        "categoryId": 20
       },
       {
         "name": "Milkshake con Helado",
         "description": "Batido de leche, hielo y helado a elección.",
         "price": 7900,
-        "id": "dish-21-4",
+        "id": "dish-20-4",
         "category": "Jugos y Licuados",
-        "categoryId": 21
+        "categoryId": 20
       },
       {
         "name": "Licuado Mixtos o frutas fuera de estación",
         "price": 7200,
-        "id": "dish-21-5",
+        "id": "dish-20-5",
         "category": "Jugos y Licuados",
-        "categoryId": 21
+        "categoryId": 20
       },
       {
         "name": "Jugo de Naranja Natural",
         "price": 6000,
-        "id": "dish-21-6",
+        "id": "dish-20-6",
         "category": "Jugos y Licuados",
-        "categoryId": 21
+        "categoryId": 20
       },
       {
         "name": "Licuado de Banana",
         "price": 6000,
-        "id": "dish-21-7",
+        "id": "dish-20-7",
         "category": "Jugos y Licuados",
-        "categoryId": 21
+        "categoryId": 20
       }
     ],
-    "id": 21,
+    "id": 20,
     "itemsCount": 7
   },
   {
@@ -2921,132 +2767,286 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "name": "Limonada Clásica — Jarra 1 lt",
         "price": 10900,
-        "id": "dish-22-1",
+        "id": "dish-21-1",
         "category": "Bebidas sin alcohol",
-        "categoryId": 22
+        "categoryId": 21
       },
       {
         "name": "Zanahoria, Maracuyá y Naranja — Jarra 1 lt",
         "price": 12500,
-        "id": "dish-22-2",
+        "id": "dish-21-2",
         "category": "Bebidas sin alcohol",
-        "categoryId": 22
+        "categoryId": 21
       },
       {
         "name": "Zanahoria, Jengibre y Naranja — Jarra 1 lt",
         "price": 12500,
-        "id": "dish-22-3",
+        "id": "dish-21-3",
         "category": "Bebidas sin alcohol",
-        "categoryId": 22
+        "categoryId": 21
       },
       {
         "name": "Limonada de Maracuyá o Menta y jengibre o Frutos Rojos — Jarra 1 lt",
         "price": 10500,
-        "id": "dish-22-4",
+        "id": "dish-21-4",
         "category": "Bebidas sin alcohol",
-        "categoryId": 22
+        "categoryId": 21
       },
       {
         "name": "Zanahoria, Maracuyá y Naranja — Vaso ½ lt",
         "price": 7500,
-        "id": "dish-22-5",
+        "id": "dish-21-5",
         "category": "Bebidas sin alcohol",
-        "categoryId": 22
+        "categoryId": 21
       },
       {
         "name": "Zanahoria, Jengibre y Naranja — Vaso ½ lt",
         "price": 7300,
-        "id": "dish-22-6",
+        "id": "dish-21-6",
         "category": "Bebidas sin alcohol",
-        "categoryId": 22
+        "categoryId": 21
       },
       {
         "name": "Limonada de Maracuyá o Menta y jengibre o Frutos Rojos — Vaso ½ lt",
         "price": 7500,
-        "id": "dish-22-7",
+        "id": "dish-21-7",
         "category": "Bebidas sin alcohol",
-        "categoryId": 22
+        "categoryId": 21
       },
       {
         "name": "Limonada Clásica — Vaso ½ lt",
         "price": 4900,
-        "id": "dish-22-8",
+        "id": "dish-21-8",
         "category": "Bebidas sin alcohol",
-        "categoryId": 22
+        "categoryId": 21
       },
       {
         "name": "Coca Cola/Coca Zero/Sprite/ Sprite Zero 1,5 lt",
         "price": 11900,
-        "id": "dish-22-9",
+        "id": "dish-21-9",
         "category": "Bebidas sin alcohol",
-        "categoryId": 22
+        "categoryId": 21
       },
       {
         "name": "Coca Cola/Coca Zero/Sprite 1 lt",
         "price": 9900,
-        "id": "dish-22-10",
+        "id": "dish-21-10",
         "category": "Bebidas sin alcohol",
-        "categoryId": 22
+        "categoryId": 21
       },
       {
         "name": "Schweppes Tónica",
         "price": 4900,
-        "id": "dish-22-11",
+        "id": "dish-21-11",
         "category": "Bebidas sin alcohol",
-        "categoryId": 22
+        "categoryId": 21
       },
       {
         "name": "Coca Cola 350 cc",
         "price": 4700,
-        "id": "dish-22-12",
+        "id": "dish-21-12",
         "category": "Bebidas sin alcohol",
-        "categoryId": 22
+        "categoryId": 21
       },
       {
         "name": "Coca Zero 350 cc",
         "price": 4700,
-        "id": "dish-22-13",
+        "id": "dish-21-13",
         "category": "Bebidas sin alcohol",
-        "categoryId": 22
+        "categoryId": 21
       },
       {
         "name": "Sprite 350 cc",
         "price": 4700,
-        "id": "dish-22-14",
+        "id": "dish-21-14",
         "category": "Bebidas sin alcohol",
-        "categoryId": 22
+        "categoryId": 21
       },
       {
         "name": "Fanta 350 cc",
         "price": 4700,
-        "id": "dish-22-15",
+        "id": "dish-21-15",
         "category": "Bebidas sin alcohol",
-        "categoryId": 22
+        "categoryId": 21
       },
       {
         "name": "Agua sin Gas 500 cc",
         "price": 4700,
-        "id": "dish-22-16",
+        "id": "dish-21-16",
         "category": "Bebidas sin alcohol",
-        "categoryId": 22
+        "categoryId": 21
       },
       {
         "name": "Agua con Gas 500 cc",
         "price": 4700,
-        "id": "dish-22-17",
+        "id": "dish-21-17",
         "category": "Bebidas sin alcohol",
-        "categoryId": 22
+        "categoryId": 21
       },
       {
         "name": "Aquarius 500 cc",
         "price": 4700,
-        "id": "dish-22-18",
+        "id": "dish-21-18",
         "category": "Bebidas sin alcohol",
+        "categoryId": 21
+      }
+    ],
+    "id": 21,
+    "itemsCount": 18
+  },
+  {
+    "name": "Cafeteria",
+    "slug": "cafeteria",
+    "description": "Cafés especiales, fríos y clásicos de barista.",
+    "icon": "Coffee",
+    "coverImage": "./platos/cafeteria.jpg",
+    "items": [
+      {
+        "name": "Café Filipo",
+        "description": "Café, licor Tía María Cream, licor de chocolate, crema y chocolate rayado.",
+        "price": 8900,
+        "image": "./platos/cafeteria.jpg",
+        "id": "dish-22-1",
+        "category": "Cafeteria",
+        "categoryId": 22
+      },
+      {
+        "name": "Café Surprise",
+        "description": "Café, crema, licor Tía María Cream, licor de dulce de leche y chocolate rayado.",
+        "price": 8900,
+        "image": "./platos/cafeteria.jpg",
+        "id": "dish-22-2",
+        "category": "Cafeteria",
+        "categoryId": 22
+      },
+      {
+        "name": "Café Irlandés",
+        "description": "Café, whisky, crema, chocolate rayado y canela.",
+        "price": 8900,
+        "image": "./platos/cafeteria.jpg",
+        "id": "dish-22-3",
+        "category": "Cafeteria",
+        "categoryId": 22
+      },
+      {
+        "name": "Café con Baileys",
+        "price": 8900,
+        "image": "./platos/cafeteria.jpg",
+        "id": "dish-22-4",
+        "category": "Cafeteria",
+        "categoryId": 22
+      },
+      {
+        "name": "Affogato",
+        "description": "Pocillo de café con helado.",
+        "price": 8900,
+        "image": "./platos/cafeteria.jpg",
+        "id": "dish-22-5",
+        "category": "Cafeteria",
+        "categoryId": 22
+      },
+      {
+        "name": "Frozen Baileys Coffee",
+        "description": "Batido de hielo triturado, Baileys, helado y café.",
+        "price": 12500,
+        "image": "./platos/cafeteria.jpg",
+        "id": "dish-22-6",
+        "category": "Cafeteria",
+        "categoryId": 22
+      },
+      {
+        "name": "Sweetest Ice Coffee",
+        "description": "Hielo triturado, café, leche helada y helado de dulce de leche.",
+        "price": 10900,
+        "image": "./platos/cafeteria.jpg",
+        "id": "dish-22-7",
+        "category": "Cafeteria",
+        "categoryId": 22
+      },
+      {
+        "name": "Vanilla Ice Coffee",
+        "description": "Hielo triturado, café, leche helada y vainilla.",
+        "price": 10900,
+        "image": "./platos/cafeteria.jpg",
+        "id": "dish-22-8",
+        "category": "Cafeteria",
+        "categoryId": 22
+      },
+      {
+        "name": "Café o cortado en Pocillo",
+        "price": 4500,
+        "image": "./platos/cafeteria.jpg",
+        "id": "dish-22-9",
+        "category": "Cafeteria",
+        "categoryId": 22
+      },
+      {
+        "name": "Café en pocillo o Jarrito con Leche Condensada",
+        "price": 5300,
+        "image": "./platos/cafeteria.jpg",
+        "id": "dish-22-10",
+        "category": "Cafeteria",
+        "categoryId": 22
+      },
+      {
+        "name": "Café en Jarrito/ café doble/ café con leche",
+        "price": 4900,
+        "image": "./platos/cafeteria.jpg",
+        "id": "dish-22-11",
+        "category": "Cafeteria",
+        "categoryId": 22
+      },
+      {
+        "name": "Té / Té Saborizado",
+        "price": 4900,
+        "image": "./platos/cafeteria.jpg",
+        "id": "dish-22-12",
+        "category": "Cafeteria",
+        "categoryId": 22
+      },
+      {
+        "name": "Capuchino",
+        "price": 5900,
+        "image": "./platos/cafeteria.jpg",
+        "id": "dish-22-13",
+        "category": "Cafeteria",
+        "categoryId": 22
+      },
+      {
+        "name": "Submarino",
+        "price": 5900,
+        "image": "./platos/cafeteria.jpg",
+        "id": "dish-22-14",
+        "category": "Cafeteria",
+        "categoryId": 22
+      },
+      {
+        "name": "Leche con Chocolate",
+        "price": 5000,
+        "image": "./platos/cafeteria.jpg",
+        "id": "dish-22-15",
+        "category": "Cafeteria",
+        "categoryId": 22
+      },
+      {
+        "name": "Café en Jarrito",
+        "price": 4900,
+        "image": "./platos/cafeteria.jpg",
+        "id": "dish-22-16",
+        "category": "Cafeteria",
+        "categoryId": 22
+      },
+      {
+        "name": "Café en Pocillo con Crema",
+        "price": 4900,
+        "image": "./platos/cafeteria.jpg",
+        "id": "dish-22-17",
+        "category": "Cafeteria",
         "categoryId": 22
       }
     ],
     "id": 22,
-    "itemsCount": 18
+    "itemsCount": 17
   }
 ];
 

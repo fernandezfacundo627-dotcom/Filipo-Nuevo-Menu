@@ -214,6 +214,15 @@ export async function fetchMenuData(csvUrl: string = GOOGLE_SHEET_CSV_URL): Prom
             });
           }
 
+          // Asegurar que la categoría "Cafetería" quede ubicada al final de toda la carta
+          const cafeteriaIndex = categoryOrder.findIndex(
+            (cat) => cat.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") === "cafeteria"
+          );
+          if (cafeteriaIndex !== -1 && cafeteriaIndex !== categoryOrder.length - 1) {
+            const [cafeteriaCat] = categoryOrder.splice(cafeteriaIndex, 1);
+            categoryOrder.push(cafeteriaCat);
+          }
+
           // Armar la lista estructurada de categorías respetando el orden de la planilla
           const categories: MenuCategory[] = categoryOrder.map((catName, index) => {
             const items = categoryMap.get(catName) || [];
