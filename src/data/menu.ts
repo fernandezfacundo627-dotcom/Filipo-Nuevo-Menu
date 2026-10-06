@@ -171,7 +171,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "Para compartir",
           "Familiar"
         ],
-        "image": "./platos/tablas.jpg",
+        "image": "https://drive.google.com/file/d/1S1lhhxoh_kuejWRK0WDy7m5ZDzeCq_15/view?usp=drive_link",
         "id": "dish-0-12",
         "category": "Tablas",
         "categoryId": 0
