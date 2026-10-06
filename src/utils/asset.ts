@@ -13,12 +13,15 @@ export function resolveAssetUrl(url: string | undefined | null): string | undefi
   if (!trimmed) return undefined;
 
   // Detección y conversión automática de enlaces de Google Drive
-  const driveRegex =
-    /(?:drive\.google\.com\/(?:file\/d\/|open\?id=|uc\?(?:[^&]+&)*id=|thumbnail\?(?:[^&]+&)*id=)|lh3\.googleusercontent\.com\/d\/)([a-zA-Z0-9_-]{20,})/i;
+  // Extrae el ID de cualquier link (file/d/, open?id=, lh3.googleusercontent.com/d/, etc)
+  const driveRegex = /(?:id=|id\/|d\/)([a-zA-Z0-9_-]{25,})/i;
   const driveMatch = trimmed.match(driveRegex);
-  if (driveMatch && driveMatch[1]) {
+  
+  if (driveMatch && driveMatch[1] && trimmed.includes("google")) {
     const fileId = driveMatch[1];
-    return `https://lh3.googleusercontent.com/d/${fileId}`;
+    // Usamos directamente el endpoint de thumbnail que es mucho más estable
+    // y no sufre de los bloqueos de CORS o cookies de lh3.googleusercontent.com
+    return `https://drive.google.com/thumbnail?id=${fileId}&sz=w1000`;
   }
 
   // URLs remotas estándar (Cloudinary, Imgur, servidores web) o Data URIs
